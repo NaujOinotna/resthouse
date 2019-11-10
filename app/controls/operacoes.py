@@ -10,10 +10,12 @@ from decimal import Decimal
 
 operacoes = Blueprint("operacoes", __name__)
 
+
 class Operacoes():
 
     def __init__(self):
-        self.authentic = {"code": "", "msg": "", "email": "", "token": "", "nome": "", "id": "", "value": "", "superuser":""}
+        self.authentic = {"code": "", "msg": "", "email": "",
+                          "token": "", "nome": "", "id": "", "value": "", "superuser": ""}
         self.associado = Associado()
         self.tags = TagAssociado()
         self.associado_categoria = AssociadoCategoria()
@@ -22,7 +24,7 @@ class Operacoes():
         self.pedido = Pedido()
         self.pedido_item = PedidoItem()
         self.pedido_avaliacao = PedidoAvaliacao()
-        self.destino = 'app/bd/dados.csv' 
+        self.destino = 'app/bd/dados.csv'
         self.FIELD_NAMES = ['pedido_id',
                             'numero',
                             'situacao',
@@ -35,11 +37,12 @@ class Operacoes():
                             'observacao',
                             'avaliacao_pontos',
                             'avaliacao_comentarios',
+                            'data_registro',
                             'item_id',
-                            'produto_id',    
+                            'produto_id',
                             'produto_descricao',
                             'resumo',
-                            'categoria',                            
+                            'categoria',
                             'tamanho',
                             'quantidade',
                             'medida',
@@ -57,8 +60,8 @@ class Operacoes():
                             'cliente_cidade',
                             'cliente_estado',
                             'cliente_cep'
-                            ]                    
-        
+                            ]
+
     def obterAssociados(self):
         return self.associado.query.order_by(Associado.nomefantasia).all()
 
@@ -70,10 +73,10 @@ class Operacoes():
 
     def obterAssociadosByNomeResumo(self, valor):
         return self.associado.query.filter(Associado.nomefantasia.contains(valor.upper()) | Associado.resumo.contains(valor.lower())).all()
-    
+
     def obterAssociadoByCategorias(self, categorias):
         return self.associado.query.filter(Associado.categorias_associado.any(AssociadoCategoria.categoria_id.in_([categorias]))).all()
-    
+
     def atualizarAssociado(self, associado):
         try:
             self.associado = associado
@@ -85,7 +88,7 @@ class Operacoes():
 
         except:
             self.authentic["code"] = "500"
-            self.authentic["msg"] = "Erro desconhecido"        
+            self.authentic["msg"] = "Erro desconhecido"
 
     def obterTagsAssociadoByUser(self, usuario_id):
         return self.tags.query.filter_by(usuario_id=usuario_id).all()
@@ -155,7 +158,7 @@ class Operacoes():
         return self.pedido.query.filter_by(usuario_id=usuario_id).order_by(Pedido.numero.desc()).all()
 
     def obterTodosPedidos(self):
-        status = ['2','3']
+        status = ['2', '3']
         return self.pedido.query.filter(Pedido.situacao.in_(status)).order_by(Pedido.numero.desc()).all()
 
     def obterPedidosByStatus(self, usuario_id, status):
@@ -215,9 +218,11 @@ class Operacoes():
                     ",", ".")).quantize(Decimal('.01'), rounding='ROUND_UP')
                 total_pedido = total_produtos + txEntrega
 
-                pedido.numero = str(date.year)[2:] + str(date.month).zfill(2) + str(date.day).zfill(2) + str(date.hour) + str(date.minute) + str(date.second) + str(associado.id) + str(usuario_id)
-                pedido.dtregistro = str(date.day).zfill(2) + "/" + str(date.month).zfill(2) + "/" + str(date.year) + " " + str(date.hour).zfill(2)  + ":" + str(date.minute).zfill(2) 
-                
+                pedido.numero = str(date.year)[2:] + str(date.month).zfill(2) + str(date.day).zfill(2) + str(
+                    date.hour) + str(date.minute) + str(date.second) + str(associado.id) + str(usuario_id)
+                pedido.dtregistro = str(date.day).zfill(2) + "/" + str(date.month).zfill(2) + "/" + str(
+                    date.year) + " " + str(date.hour).zfill(2) + ":" + str(date.minute).zfill(2)
+
                 pedido.associado_id = associado.id
                 pedido.usuario_id = usuario_id
                 pedido.situacao = "1"
@@ -255,7 +260,7 @@ class Operacoes():
         except:
             self.authentic["code"] = "500"
             self.authentic["msg"] = "Erro desconhecido"
-            
+
     def registrarAvaliacao(self, pedidoAvaliacao):
         try:
             obj = PedidoAvaliacao()
@@ -267,53 +272,54 @@ class Operacoes():
 
         except:
             self.authentic["code"] = "500"
-            self.authentic["msg"] = "Erro desconhecido"        
-            
-    def obterArquivoCSV(self):                       
+            self.authentic["msg"] = "Erro desconhecido"
+
+    def obterArquivoCSV(self):
         with open(self.destino, 'w+') as source:
             writer = csv.DictWriter(source, fieldnames=self.FIELD_NAMES)
             writer.writeheader()
-            pedidos = self.obterPedidosDashboardByStatus(['2','3','4','5'])
-            
+            pedidos = self.obterPedidosDashboardByStatus(['2', '3', '4', '5'])
+
             for pedido in pedidos:
                 for item in pedido.itens:
                     writer.writerow({'pedido_id': item.ped.id,
-                                    'numero': item.ped.numero,
-                                    'situacao': item.ped.status,
-                                    'vendedor_id': item.ped.assoc.id,
-                                    'vendedor_nomefantasia': item.ped.assoc.nomefantasia,
-                                    'agenda_entrega':item.ped.assoc.agenda_entrega,
-                                    'total_itens': item.ped.total_itens,
-                                    'taxa_entrega': item.ped.taxa_entrega,
-                                    'total_pedido': item.ped.total_pedido,
-                                    'observacao': item.ped.observacao,
-                                    'avaliacao_pontos': item.ped.avaliacao_pontos,
-                                    'avaliacao_comentarios': item.ped.avaliacao_comentarios,
-                                    'item_id': item.id,
-                                    'produto_id': item.produto_id,    
-                                    'produto_descricao': item.prods.descricao,    
-                                    'resumo': item.resumo,
-                                    'categoria': item.categoria,                                    
-                                    'tamanho': item.tamanho,
-                                    'quantidade': item.quantidade,
-                                    'medida':item.prods.medida,
-                                    'valor_unitario': item.valor_unitario,
-                                    'total_item': item.total_item,
-                                    'ids': item.ids,
-                                    'cliente_id': item.ped.user.id,
-                                    'cliente_nome': item.ped.user.nomecompleto,
-                                    'cliente_email': item.ped.user.email,
-                                    'cliente_fone': item.ped.user.fonecelular,
-                                    'cliente_logradouro':item.ped.user.logradouro,
-                                    'cliente_numero':item.ped.user.numero,
-                                    'cliente_complemento':item.ped.user.complemento,
-                                    'cliente_bairro': item.ped.user.bairro,
-                                    'cliente_cidade': item.ped.user.cidade,
-                                    'cliente_estado': item.ped.user.estado,
-                                    'cliente_cep': item.ped.user.cep                                    
-                                })
-                                
+                                     'numero': item.ped.numero,
+                                     'situacao': item.ped.status,
+                                     'vendedor_id': item.ped.assoc.id,
+                                     'vendedor_nomefantasia': item.ped.assoc.nomefantasia,
+                                     'agenda_entrega': item.ped.assoc.agenda_entrega,
+                                     'total_itens': item.ped.total_itens,
+                                     'taxa_entrega': item.ped.taxa_entrega,
+                                     'total_pedido': item.ped.total_pedido,
+                                     'observacao': item.ped.observacao,
+                                     'avaliacao_pontos': item.ped.avaliacao_pontos,
+                                     'avaliacao_comentarios': item.ped.avaliacao_comentarios,
+                                     'data_registro': item.ped.dtregistro,
+                                     'item_id': item.id,
+                                     'produto_id': item.produto_id,
+                                     'produto_descricao': item.prods.descricao,
+                                     'resumo': item.resumo,
+                                     'categoria': item.categoria,
+                                     'tamanho': item.tamanho,
+                                     'quantidade': item.quantidade,
+                                     'medida': item.prods.medida,
+                                     'valor_unitario': item.valor_unitario,
+                                     'total_item': item.total_item,
+                                     'ids': item.ids,
+                                     'cliente_id': item.ped.user.id,
+                                     'cliente_nome': item.ped.user.nomecompleto,
+                                     'cliente_email': item.ped.user.email,
+                                     'cliente_fone': item.ped.user.fonecelular,
+                                     'cliente_logradouro': item.ped.user.logradouro,
+                                     'cliente_numero': item.ped.user.numero,
+                                     'cliente_complemento': item.ped.user.complemento,
+                                     'cliente_bairro': item.ped.user.bairro,
+                                     'cliente_cidade': item.ped.user.cidade,
+                                     'cliente_estado': item.ped.user.estado,
+                                     'cliente_cep': item.ped.user.cep
+                                     })
+
         with open(self.destino) as fp:
             arq_csv = fp.read()
-        
+
         return arq_csv

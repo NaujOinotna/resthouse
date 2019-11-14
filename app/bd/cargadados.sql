@@ -1,10 +1,10 @@
--- DELETE FROM produto_tamanho;
--- DELETE FROM produto;        
--- DELETE FROM associado_categorias;
--- DELETE FROM associado;
--- DELETE FROM associado_usuario_tags;
--- DELETE FROM categoria;
--- 
+DELETE FROM produto_tamanho;
+DELETE FROM produto;        
+DELETE FROM associado_categorias;
+DELETE FROM associado;
+DELETE FROM associado_usuario_tags;
+DELETE FROM categoria;
+
 
 -- Categoria (OK)
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (1, 'BEBIDAS', NULL, 'categorias/bebidas.jpg');
@@ -485,31 +485,31 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Sábado - Feijoada', '10,00', 'Feijoada: Arroz, feijoada, couve refogada, farofa com torresmo, banana frita, laranja e vinagrete', 'UN', 'produtos/100x100.jpg', 23, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Morango', '28,00', 'Quilo', 'KG', 'produtos/1011.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Morango', '28,00', 'Quilo', 'KG', 'produtos/1011.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Abacaxi', '28,00', 'Quilo', 'KG', 'produtos/1012.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Abacaxi', '28,00', 'Quilo', 'KG', 'produtos/1012.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Pêssego', '28,00', 'Quilo', 'KG', 'produtos/1013.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Pêssego', '28,00', 'Quilo', 'KG', 'produtos/1013.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Morango com suspiro', '30,00', 'Quilo', 'KG', 'produtos/1014.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Morango com suspiro', '30,00', 'Quilo', 'KG', 'produtos/1014.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Abacaxi com creme', '30,00', 'Quilo', 'KG', 'produtos/1015.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Abacaxi com creme', '30,00', 'Quilo', 'KG', 'produtos/1015.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Pêssego com creme', '30,00', 'Quilo', 'KG', 'produtos/1016.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Pêssego com creme', '30,00', 'Quilo', 'KG', 'produtos/1016.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Brigadeiro', '35,00', 'Quilo', 'KG', 'produtos/1017.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Brigadeiro', '35,00', 'Quilo', 'KG', 'produtos/1017.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Prestígio', '35,00', 'Quilo', 'KG', 'produtos/1018.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Prestígio', '35,00', 'Quilo', 'KG', 'produtos/1018.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Sonho de valsa', '35,00', 'Quilo', 'KG', 'produtos/1019.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Sonho de valsa', '35,00', 'Quilo', 'KG', 'produtos/1019.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Ouro Branco', '35,00', 'Quilo', 'KG', 'produtos/10110.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Ouro Branco', '35,00', 'Quilo', 'KG', 'produtos/10110.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Dois amores', '35,00', 'Quilo', 'KG', 'produtos/10111.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Dois amores', '35,00', 'Quilo', 'KG', 'produtos/10111.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Floresta negra', '35,00', 'Quilo', 'KG', 'produtos/10112.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Floresta negra', '35,00', 'Quilo', 'KG', 'produtos/10112.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Chocorango', '35,00', 'Quilo', 'KG', 'produtos/10113.jpg', 24, 'default', NULL);
+	VALUES ('Bolo Chocorango', '35,00', 'Quilo', 'KG', 'produtos/10113.jpg', 24, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Cento de Brigadeiro', '35,00', 'c/ 50 unidades', 'UN', 'produtos/1021.jpg', 25, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 

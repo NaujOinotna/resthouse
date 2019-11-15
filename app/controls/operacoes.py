@@ -14,8 +14,7 @@ operacoes = Blueprint("operacoes", __name__)
 class Operacoes():
 
     def __init__(self):
-        self.authentic = {"code": "", "msg": "", "email": "",
-                          "token": "", "nome": "", "id": "", "value": "", "superuser": ""}
+        self.authentic = {"code": "", "msg": "", "email": "", "token": "", "nome": "", "id": "", "value": "", "superuser": ""}
         self.associado = Associado()
         self.tags = TagAssociado()
         self.associado_categoria = AssociadoCategoria()
@@ -25,6 +24,8 @@ class Operacoes():
         self.pedido_item = PedidoItem()
         self.pedido_avaliacao = PedidoAvaliacao()
         self.destino = 'app/bd/dados.csv'
+        self.destinoTXT = 'app/bd/pedido.txt'
+        
         self.FIELD_NAMES = ['pedido_id',
                             'numero',
                             'situacao',
@@ -323,3 +324,50 @@ class Operacoes():
             arq_csv = fp.read()
 
         return arq_csv
+
+    def obterArquivoTXT(self, pedido_id):
+        strArq=[]
+        with open(self.destinoTXT, 'w+') as txt:
+            pedido = self.obterPedidoById(pedido_id)
+
+            strArq.append('+------------------------------------------------------------------+\n')
+            strArq.append(' Pedido.:' + str(pedido.numero) +'\n')
+            strArq.append(' - Situação........: ' + pedido.status +'   Data/Hora: '+pedido.dtregistro +'\n')
+            strArq.append(' - Vendedor........: ' + pedido.assoc.nomefantasia + '\n')
+            strArq.append(' - Data Agendamento: '+pedido.dtagendamento+'\n')           
+            strArq.append('+------------------------------------------------------------------+\n')
+            strArq.append(' Cliente: '+ str(pedido.user.id) +'\n')
+            strArq.append('   - '+ pedido.user.nomecompleto +'\n')
+            strArq.append('   - '+ pedido.user.fonecelular+'\n')
+            strArq.append('   - '+ pedido.user.email+'\n')
+            strArq.append('   - '+ pedido.user.logradouro+', '+pedido.user.numero + ' ' +pedido.user.complemento+'\n')
+            strArq.append('   - '+ pedido.user.bairro+ '  '+ pedido.user.cidade + '-'+pedido.user.estado+'\n')
+            strArq.append('+------------------------------------------------------------------+\n')
+            strArq.append(' Itens \n')
+            strArq.append('+------------------------------------------------------------------+\n')            
+            i=1                        
+            for item in pedido.itens:
+                strArq.append('   + Item: '+str(i)+'\n')
+                strArq.append('     '+str(item.produto_id)+' - '+item.prods.descricao+'\n')
+                strArq.append('     '+item.resumo+'\n')
+                strArq.append('     '+item.categoria.lower()+item.tamanho+'\n')
+                strArq.append('     '+item.quantidade+item.prods.medida+' x '+item.valor_unitario+' = '+item.total_item+'\n')                
+                strArq.append('\n')
+                i=i+1
+                
+            strArq.append('+------------------------------------------------------------------+\n')
+            strArq.append(' - Taxa Entrega....: '+pedido.taxa_entrega+'\n')
+            strArq.append(' - Total Itens.....: '+ pedido.total_itens+'\n')                        
+            strArq.append(' - Total Pedido....: '+pedido.total_pedido+'\n')
+            strArq.append('+------------------------------------------------------------------+\n')            
+            strArq.append(' - Observação '+'\n')
+            strArq.append('    '+pedido.observacao+'\n')
+            strArq.append('+------------------------------------------------------------------+\n')
+            strArq = ''.join(strArq)
+            
+            txt.write(strArq)
+
+        with open(self.destinoTXT) as fp:
+            arq_txt = fp.read()
+
+        return arq_txt

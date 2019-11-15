@@ -504,3 +504,10 @@ def gerarDownload():
         return Response(oper.obterArquivoCSV(), mimetype="text/csv", headers={"Content-disposition":"attachment; filename=dados.csv"})        
     else:
         return render_template('login.html', page=None)            
+
+@views.route('/dashboard/download/pedido/<pedido_id>', methods=['GET'])    
+def gerarDownloadPedido(pedido_id):
+    if 'email' in session:
+        return Response(oper.obterArquivoTXT(pedido_id), mimetype="text/rtf", headers={"Content-disposition":"attachment; filename=pedido.txt"})        
+    else:
+        return render_template('login.html', page=None)            

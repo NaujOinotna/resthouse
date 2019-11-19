@@ -409,6 +409,7 @@ class Pedido(db.Model):
     motivo_cancelamento = db.Column(db.String(150))
     observacao = db.Column(db.String(150), default="")
     dtregistro = db.Column(db.String(30))
+    dtenvio = db.Column(db.String(30))
 
     itens = relationship('PedidoItem', backref=backref("pedido"))
     assoc = relationship(Associado, backref=backref("pedido"))

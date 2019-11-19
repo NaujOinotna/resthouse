@@ -124,7 +124,8 @@ CREATE TABLE pedido (id SERIAL NOT NULL PRIMARY KEY,
                        avaliacao_comentarios VARCHAR(150) NULL,
                        observacao VARCHAR(150) NULL,
                        motivo_cancelamento VARCHAR(150) NULL,
-                       dtregistro VARCHAR(30)  NULL);                          
+                       dtregistro VARCHAR(30)  NULL,
+                       dtenvio VARCHAR(30)  NULL);                            
  CREATE INDEX idx_pedido_dtregistro ON pedido (dtregistro);                      
  CREATE INDEX idx_pedido_situacao ON pedido (situacao);                      
 

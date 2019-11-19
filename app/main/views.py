@@ -344,12 +344,15 @@ def atualizarSituacaoFinalizado():
     id = request.values.get('id')    
     dtagendamento = request.values.get('dtagendamento')[8:10] + "/" + request.values.get('dtagendamento')[5:7] + "/" + request.values.get('dtagendamento')[0:4]
     dtatual = datetime.datetime.now()
+
     agenda_entrega = request.values.get('agenda_entrega')
+    dtenvio = str(dtatual.day).zfill(2) + "/" + str(dtatual.month).zfill(2) + "/" + str(dtatual.year) + " " + str(dtatual.hour).zfill(2) + ":" + str(dtatual.minute).zfill(2)
 
     if 'email' in session:
         pedido = oper.obterPedidoById(id)
         pedido.situacao = "2"
         pedido.dtagendamento = dtagendamento
+        pedido.dtenvio = dtenvio
 
         if agenda_entrega=="S":            
             # ano/mes/dia

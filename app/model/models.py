@@ -451,6 +451,7 @@ class Pedido(db.Model):
             'numero': self.numero,
             'situacao': self.situacao,
             'dtagendamento': self.dtagendamento,
+            'dtenvio': self.dtenvio,
             'total_itens': self.total_itens,
             'taxa_entrega': self.taxa_entrega,
             'total_pedido': self.total_pedido,

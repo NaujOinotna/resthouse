@@ -1,16 +1,16 @@
- DROP TABLE pedido_avaliacao;
- DROP TABLE pedido_item;
- DROP TABLE pedido;
- DROP TABLE carrinho;
--- DROP TABLE usuario;
- DROP TABLE produto_tamanho;
- DROP TABLE associado_usuario_tags; 
- DROP TABLE associado_categorias;
- DROP TABLE associado;
- DROP TABLE categoria;
- DROP TABLE produto;
--- -- -- 
--- -- SQLLite
+--  DROP TABLE pedido_avaliacao;
+--  DROP TABLE pedido_item;
+--  DROP TABLE pedido;
+--  DROP TABLE carrinho;
+-- -- DROP TABLE usuario;
+--  DROP TABLE produto_tamanho;
+--  DROP TABLE associado_usuario_tags; 
+--  DROP TABLE associado_categorias;
+--  DROP TABLE associado;
+--  DROP TABLE categoria;
+--  DROP TABLE produto;
+-- -- -- -- 
+-- SQLLite
 -- CREATE TABLE usuario (  id SERIAL NOT NULL PRIMARY KEY,
 --                         situacao VARCHAR(30) NULL,
 --                         email VARCHAR(100) NULL UNIQUE,

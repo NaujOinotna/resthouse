@@ -11,7 +11,7 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (1, 'BEBIDAS', N
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (2, 'BOLOS', NULL, 'categorias/bolos.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (3, 'DOCES', NULL, 'categorias/300x200.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (4, 'CACHORROS-QUENTES', NULL, 'categorias/hotdogs.jpg');
-INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (5, 'HAMBURGUER', NULL, 'categorias/300x200.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (5, 'HAMBURGUER', NULL, 'categorias/hamburger.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (6, 'KITS FESTA', NULL, 'categorias/doces.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (7, 'LANCHES', NULL, 'categorias/lanches.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (8, 'PIZZAS', NULL, 'categorias/pizzas.jpg');
@@ -568,71 +568,71 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 */
 --crys
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('F.P', '13,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, frango grelhado, bacon defumado, cheddar, queijo cremoso, molho caseiro, alface, tomate e molho especial barbecue. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('F.P', '13,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, frango grelhado, bacon defumado, cheddar, queijo cremoso, molho caseiro, alface, tomate e molho especial barbecue. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('P.B.C', '13,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, bacon fatiado, calabresa defumada, queijo cremoso, cheddar, molho caseiro, molho barbecue, alface, tomate e picles. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('P.B.C', '13,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, bacon fatiado, calabresa defumada, queijo cremoso, cheddar, molho caseiro, molho barbecue, alface, tomate e picles. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('3 Burguer Bacon', '17,00', '3 hambúrgueres caseiros temperados com 11 ingredientes, 3 camadas de cheddar top de linha, 3 camadas de bacon fatiado, mussarela e molho caseiro.', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('3 Burguer Bacon', '17,00', '3 hambúrgueres caseiros temperados com 11 ingredientes, 3 camadas de cheddar top de linha, 3 camadas de bacon fatiado, mussarela e molho caseiro.', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('3 Burguer Cheddar', '16,00', '3 hambúrgueres caseiros temperados com 11 ingredientes, 3 camadas de cheddar top de linha, molho caseiro e molho barbecue.', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('3 Burguer Cheddar', '16,00', '3 hambúrgueres caseiros temperados com 11 ingredientes, 3 camadas de cheddar top de linha, molho caseiro e molho barbecue.', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Tudão', '18,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, frango, bacon fatiado, calabresa, ovo, picles, tomate, alface, molho caseiro e molho barbecue. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('X Tudão', '18,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, frango, bacon fatiado, calabresa, ovo, picles, tomate, alface, molho caseiro e molho barbecue. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('K.2', '13,00', '2 hambúrgueres caseiros temperados com 11 ingredientes, cheddar, queijo cremoso, picles, alface, tomate, molho caseiro e molho especial barbecue. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('K.2', '13,00', '2 hambúrgueres caseiros temperados com 11 ingredientes, cheddar, queijo cremoso, picles, alface, tomate, molho caseiro e molho especial barbecue. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('TOP', '13,00', 'Hambúrguer caseiro temperado com 11 ingredientes, bacon defumado, queijo cremoso, picles, alface, tomate e molho caseiro.', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('TOP', '13,00', 'Hambúrguer caseiro temperado com 11 ingredientes, bacon defumado, queijo cremoso, picles, alface, tomate e molho caseiro.', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Trio F.P.', '20,00', 'Frango grelhado, hamburguer caseiro, cheddar, molho caseiro e barbecue. Batata frita e refrigerante. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('Trio F.P.', '20,00', 'Frango grelhado, hamburguer caseiro, cheddar, molho caseiro e barbecue. Batata frita e refrigerante. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Trio Burguer Bacon', '24,00', '3 hambúrgueres caseiros temperados com 11 ingredientes, 3 camadas de bacon fatiado, mussarela e molho caseiro. Bata frita e refrigerante.', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('Trio Burguer Bacon', '24,00', '3 hambúrgueres caseiros temperados com 11 ingredientes, 3 camadas de bacon fatiado, mussarela e molho caseiro. Bata frita e refrigerante.', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Trio P.B.c', '20,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, bacon fatiado, calabresa defumada, queijo cremoso, cheddar, molho caseiro, molho barbecue, alface, tomate e picles. Batata frita e refrigerante. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('Trio P.B.c', '20,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, bacon fatiado, calabresa defumada, queijo cremoso, cheddar, molho caseiro, molho barbecue, alface, tomate e picles. Batata frita e refrigerante. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Trio K.2', '19,00', '2 hambúrgueres caseiros temperados com 11 ingredientes, cheddar, queijo cremoso, picles, alface, tomate, molho caseiro e molho especial barbecue. Batata frita e refrigerante. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('Trio K.2', '19,00', '2 hambúrgueres caseiros temperados com 11 ingredientes, cheddar, queijo cremoso, picles, alface, tomate, molho caseiro e molho especial barbecue. Batata frita e refrigerante. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Trio Top', '18,00', 'Hambúrguer caseiro temperado com 11 ingredientes, bacon defumado, queijo cremoso, picles, alface, tomate e molho caseiro. Batata frita e refrigerante. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('Trio Top', '18,00', 'Hambúrguer caseiro temperado com 11 ingredientes, bacon defumado, queijo cremoso, picles, alface, tomate e molho caseiro. Batata frita e refrigerante. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Salada', '7,50', 'Hambúrguer tradicional, queijo, presunto, alface, tomate e molho caseiro. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('X Salada', '7,50', 'Hambúrguer tradicional, queijo, presunto, alface, tomate e molho caseiro. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Bacon', '9,00', 'Hambúrguer tradicional, queijo, presunto, bacon, alface, tomate e molho caseiro. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('X Bacon', '9,00', 'Hambúrguer tradicional, queijo, presunto, bacon, alface, tomate e molho caseiro. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Frango', '9,00', 'Hambúrguer tradicional, queijo, presunto, frango, tomate e molho caseiro. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('X Frango', '9,00', 'Hambúrguer tradicional, queijo, presunto, frango, tomate e molho caseiro. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Calabresa', '9,00', 'Hambúrguer tradicional, queijo, presunto, calabresa, alface, tomate e molho caseiro. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('X Calabresa', '9,00', 'Hambúrguer tradicional, queijo, presunto, calabresa, alface, tomate e molho caseiro. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Egg', '8,50', 'Hambúrguer tradicional, queijo, presunto, ovo, alface, tomate e molho caseiro. ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('X Egg', '8,50', 'Hambúrguer tradicional, queijo, presunto, ovo, alface, tomate e molho caseiro. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Crispy', '12,00', 'Hambúrguer bovino, queijo duplo, bacon, cebola crispy, barbecue, alface, tomate e molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('X Crispy', '12,00', 'Hambúrguer bovino, queijo duplo, bacon, cebola crispy, barbecue, alface, tomate e molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Bacon Lovers', '12,00', 'Dois hambúrgueres bovinos, muito bacon, cheddar, molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('Bacon Lovers', '12,00', 'Dois hambúrgueres bovinos, muito bacon, cheddar, molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('3 Burguer Bacon', '15,00', 'Três hambúrgueres bovinos, queijo, presunto, mussarela, cheddar, alface, picles, tomate e molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('3 Burguer Bacon', '15,00', 'Três hambúrgueres bovinos, queijo, presunto, mussarela, cheddar, alface, picles, tomate e molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('2 Burguer', '15,00', 'Dois hambúrgueres bovinos, cheddar, alface, tomate, picles, molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/100x100.jpg', 31, 'default', NULL);
+	VALUES ('2 Burguer', '15,00', 'Dois hambúrgueres bovinos, cheddar, alface, tomate, picles, molho especial, envolvido no pão artesanal.  ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Adicionais', '2,00', '  ', 'UN', 'produtos/100x100.jpg', 32, 'default', NULL);
+	VALUES ('Adicionais', '2,00', '  ', 'UN', 'produtos/13.jpg', 32, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Batata frita', '15,00', '500 gr', 'UN', 'produtos/100x100.jpg', 32, 'default', NULL);
+	VALUES ('Batata frita', '15,00', '500 gr', 'UN', 'produtos/13.jpg', 32, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Franto frito', '20,00', '1 quilo', 'UN', 'produtos/100x100.jpg', 32, 'default', NULL);
+	VALUES ('Franto frito', '20,00', '1 quilo', 'UN', 'produtos/13.jpg', 32, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Anéis de cebola ', '15,00', '400 gr', 'UN', 'produtos/100x100.jpg', 32, 'default', NULL);
+	VALUES ('Anéis de cebola ', '15,00', '400 gr', 'UN', 'produtos/13.jpg', 32, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Aipim', '15,00', '400 gr', 'UN', 'produtos/100x100.jpg', 32, 'default', NULL);
+	VALUES ('Aipim', '15,00', '400 gr', 'UN', 'produtos/13.jpg', 32, 'default', NULL);
 
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Morango', '5,00', '  ', 'UN', 'produtos/100x100.jpg', 30, 'default', NULL);
+	VALUES ('Morango', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Mamão', '5,00', '  ', 'UN', 'produtos/100x100.jpg', 30, 'default', NULL);
+	VALUES ('Mamão', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Abacaxi', '5,00', '  ', 'UN', 'produtos/100x100.jpg', 30, 'default', NULL);
+	VALUES ('Abacaxi', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Manga', '5,00', '  ', 'UN', 'produtos/100x100.jpg', 30, 'default', NULL);
+	VALUES ('Manga', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Laranja', '5,00', '  ', 'UN', 'produtos/100x100.jpg', 30, 'default', NULL);
+	VALUES ('Laranja', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Adicional', '1,50', 'Adicionar leite ao suco', 'UN', 'produtos/100x100.jpg', 30, 'default', NULL);
+	VALUES ('Adicional', '1,50', 'Adicionar leite ao suco', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
 /*
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Carne', '5,00', '  ', 'UN', 'produtos/100x100.jpg', 34, 'default', NULL);

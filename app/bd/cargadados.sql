@@ -11,7 +11,7 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (1, 'BEBIDAS', N
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (2, 'BOLOS', NULL, 'categorias/bolos.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (3, 'DOCES', NULL, 'categorias/300x200.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (4, 'CACHORROS-QUENTES', NULL, 'categorias/hotdogs.jpg');
-INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (5, 'HAMBURGUER', NULL, 'categorias/hamburger.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (5, 'HAMBURGUER', NULL, 'categorias/hamburguer.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (6, 'KITS FESTA', NULL, 'categorias/doces.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (7, 'LANCHES', NULL, 'categorias/lanches.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)  VALUES (8, 'PIZZAS', NULL, 'categorias/pizzas.jpg');

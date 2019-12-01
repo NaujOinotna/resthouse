@@ -27,7 +27,7 @@ def home():
         nome = session.get("nome")
         adm = session.get("superuser")
         pedidos = oper.obterPedidosSemAvaliacao(session.get('id'))
-        print(adm)
+        
         return render_template('index.html', nome=nome, pedidos=pedidos, adm=adm)
     else:
         return render_template('login.html', page=None)

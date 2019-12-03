@@ -622,17 +622,17 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 	VALUES ('Aipim', '15,00', '400 gr', 'UN', 'produtos/13.jpg', 32, 'default', NULL);
 
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Morango', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
+	VALUES ('Morango', '5,00', '  ', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Mamão', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
+	VALUES ('Mamão', '5,00', '  ', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Abacaxi', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
+	VALUES ('Abacaxi', '5,00', '  ', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Manga', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
+	VALUES ('Manga', '5,00', '  ', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Laranja', '5,00', '  ', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
+	VALUES ('Laranja', '5,00', '  ', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Adicional', '1,50', 'Adicionar leite ao suco', 'UN', 'produtos/13.jpg', 30, 'default', NULL);
+	VALUES ('Adicional', '1,50', 'Adicionar leite ao suco', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 /*
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Carne', '5,00', '  ', 'UN', 'produtos/100x100.jpg', 34, 'default', NULL);

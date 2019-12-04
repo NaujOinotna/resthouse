@@ -191,7 +191,8 @@ def carregar_cardapio_produtos(associado_categoria_id):
     if 'email' in session:
         associado_categoria = oper.obterAssociadoCategoriaById(
             associado_categoria_id)
-        return render_template('cardapio_produtos.html', associado_categoria=associado_categoria)
+        associado = oper.obterAssociadoById(associado_id)
+        return render_template('cardapio_produtos.html', associado=associado, associado_categoria=associado_categoria)
     else:
         return render_template('login.html', page=None)
 

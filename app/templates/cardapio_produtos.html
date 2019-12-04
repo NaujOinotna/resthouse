@@ -28,9 +28,10 @@
             <span class="pull-left" style="margin-top:3px">
               <a id="btn-voltar" style="color:white; background:#F58634; border-color:#F58634", type="link" class="btn btn-link btn-md"  href="{{ url_for('views.carregar_cardapio', associado_id=associado_categoria.associado_id)}}"><i class="material-icons">arrow_back_ios</i></a>                                                
             </span>
-            
+
             <h4 id="lblCategoria" style="color:white; margin-left:45px; margin-top:15px">
               <b style="margin-left:-2px">{{associado.nomefantasia}}</b> 
+              <br/>
               <b>{{associado_categoria.catego.descricao}}</b>
             <h4>           
             <h6 style="color:white"> <span class="badge" style="color:#F58634; background:white">{{associado_categoria.prods|length}} opções</span></h6>      

@@ -371,7 +371,7 @@ $(document).ready(function () {
     });
 
     $(".btnAdicionarComentario").click(function () {
-        console.log($(this).val());
+        console.log($(this));
         var pedido = jQuery.parseJSON($(this).val());
 
         bootbox.prompt({

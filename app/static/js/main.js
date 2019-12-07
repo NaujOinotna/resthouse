@@ -392,6 +392,29 @@ $(document).ready(function () {
             }
         });       
     });
+    
+    $(".textareaAdicionarComentario").click(function () {
+        var pedido = jQuery.parseJSON($(this).val());
+
+        bootbox.prompt({
+            size: "small",
+            title: "Adicione comentários e observações ao seu pedido:",
+            value: pedido.observacao,
+            callback: function (result) {
+                if (result != null) {
+                    $.ajax({
+                        type: "POST",
+                        data: { id: pedido.id, observacao: result},
+                        url: url_base + "pedido/atualizar",
+                        async: false,
+                        success: function (data) { 
+                            $(location).attr('href', url_base + 'pedido');
+                        }
+                    });
+                }
+            }
+        });       
+    });
 
     $(".btnCancelarPedido").click(function () {
         var pedido = jQuery.parseJSON($(this).val());

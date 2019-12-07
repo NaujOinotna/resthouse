@@ -93,6 +93,10 @@
                                         {% else %}       
                                           <textarea class="form-control form-control-xs" style="font-size:10px; background:white" rows="2" name="txtObservacao" id="txtObservacao{{pedido.id}}" placeholder="Observação para o pedido" readonly value='{"id":"{{pedido.id}}", "observacao":"{{pedido.observacao}}"}'>{{pedido.observacao}}</textarea>
                                         {% endif %}
+
+                                        {% if pedido.situacao == "1" or pedido.situacao == "2" %}
+                                          <button type="button" class="btnAdicionarComentario btn-link btn-xs pull-right" style="background:white; color:#563A2D" value='{"id":"{{pedido.id}}", "observacao":"{{pedido.observacao}}"}'><i class="material-icons">add_comment</i></button>
+                                        {% endif %}
                                     </h6>                                                                  
                                 </div>
  

@@ -89,18 +89,20 @@
                                 <div class="tab-pane fade active" id="observacao{{pedido.id}}" role="tabpanel" aria-labelledby="observacao{{pedido.id}}-tab">                                     
                                     <h6 style="color:#563A2D; margin-bottom:35px">
                                         {% if pedido.situacao == "1" or pedido.situacao == "2" %}
-                                          <button type="button" class="btnAdicionarComentario btn-link btn-xs pull-right" style="background:white; color:#563A2D" value='{"id":"{{pedido.id}}", "observacao":"{{pedido.observacao}}"}'><i class="material-icons">add_comment</i></button>
-                                          <button type="button" value="{&quot;id&quot;:&quot;23&quot;, &quot;observacao&quot;:&quot;gfdgs&quot;}" class="btnAdicionarComentario btn-link btn-xs" style="background:white; color:#563A2D ; border: 1px solid #D3D3D3; width:100%; padding:3px 10px 20px 10px;text-align: left">
-                                          
+                                          <button type="button" value='{"id":"{{pedido.id}}", "observacao":"{{pedido.observacao}}"}' class="btnAdicionarComentario btn-link btn-xs" style="background:white; color:#563A2D ; border: 1px solid #D3D3D3; width:100%; padding:3px 10px 20px 10px;text-align: left">
+                                          {% if pedido.observacao|length > 0 %}
                                             {{pedido.observacao}}
-                                          
-                                           
+                                          {% else %}
+                                            Adicionar observa%C3%A7%C3%A3o
+                                          {% endif %}
                                           </button>
                                         {% else %}
-                                          <button type="button" value="{&quot;id&quot;:&quot;23&quot;, &quot;observacao&quot;:&quot;gfdgs&quot;}" class="btn-link btn-xs" style="background:white; color:#563A2D ; border: 1px solid #D3D3D3; width:100%; padding:3px 10px 20px 10px;text-align: left">
-                                            
+                                          <button type="button" value='{"id":"{{pedido.id}}", "observacao":"{{pedido.observacao}}"}' class="btn-link btn-xs" style="background:white; color:#563A2D ; border: 1px solid #D3D3D3; width:100%; padding:3px 10px 20px 10px;text-align: left">
+                                            {% if pedido.observacao|length > 0 %}
                                               {{pedido.observacao}}
-                                            
+                                            {% else %}
+                                              Sem observa%C3%A7%C3%A3o
+                                            {% endif %}
                                           </button>
                                         {% endif %}
                                     </h6>                                                                  

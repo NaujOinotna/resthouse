@@ -41,10 +41,10 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', 
 		 	VALUES (6, 'Disponivel', '6@gmail.com', 'Beijoca', 'Ateliê de Doces', 'Doces, Bolos, Sobremesas', 'Seg a Sáb', '08:00', '21:00', 'S', '3,00', 'Juridica', 'Rua Chile', '67', NULL, 'Rebouças', NULL, NULL, NULL, NULL, 'associados/6.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-			VALUES (7, 'Disponivel', '7@gmail.com', 'Delivery do Bessão', '', 'Lanches, Porções, Refeições', 'Seg a Dom', '19:00', '00:00', 'N', '0,00', 'Juridica', 'Rua Pedro Costa Cunha', '37', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/7.png');
+			VALUES (7, 'Disponivel', '7@gmail.com', 'Delivery do Bessão', '', 'Lanches, Porções, Refeições', 'Seg a Dom', '19:00', '00:00', 'N', '0,00', 'Juridica', 'Rua Pedro Costa Cunha', '37', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/7.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-			VALUES (8, 'Disponivel', '8@gmail.com', 'Val Bebidas', '',	'Bebidas', 'Seg a Sex', '09:30', '20:30', 'S', '3,00', 'Juridica', 'Rua Manoel Martins de Abreu', '158', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/8.png');
+			VALUES (8, 'Disponivel', '8@gmail.com', 'Val Bebidas', '',	'Bebidas', 'Seg a Sex', '09:30', '20:30', 'S', '3,00', 'Juridica', 'Rua Manoel Martins de Abreu', '158', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/8.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
 		 	VALUES (9, 'Disponivel', '9@gmail.com', 'Rei dos Salgados', 'A melhor comida caseira da região.', 'Salgados, Refeições', 'Seg a Sex', '06:30', '18:30', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/9.jpg');
@@ -53,10 +53,10 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', 
 		 	VALUES (10, 'Disponivel', '10@gmail.com', 'Lisa Salgados', '', 'Doces, Bolos, Salgados', 'Seg a Dom', '08:00', '20:00', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/10.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-		 	VALUES (11, 'Disponivel', '11@gmail.com', 'Feijoada da Dona Rosa', '', 'Refeições, Feijoada', 'Sáb', '11:30', '14:30', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/11.png');
+		 	VALUES (11, 'Disponivel', '11@gmail.com', 'Feijoada da Dona Rosa', '', 'Refeições, Feijoada', 'Sáb', '11:30', '14:30', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/11.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-		 	VALUES (12, 'Disponivel', '12@gmail.com', 'Jeu Panquecas', '',	'Panquecas, Refeições', 'Seg a Sex', '18:00', '21:00', 'X', '0,00', 'Juridica', 'Rua Manoel Freire', '137', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/12.png');
+		 	VALUES (12, 'Disponivel', '12@gmail.com', 'Jeu Panquecas', '',	'Panquecas, Refeições', 'Seg a Sex', '18:00', '21:00', 'X', '0,00', 'Juridica', 'Rua Manoel Freire', '137', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/12.jpg');
 /**/
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
 		 	VALUES (13, 'Disponivel', '13@gmail.com', 'Confeitaria da Crys', '', 'Lanches, Hamburger, Porcões', 'Seg a Dom', '', '', 'N', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/13.jpg');

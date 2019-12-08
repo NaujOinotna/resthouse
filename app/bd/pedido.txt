@@ -1,23 +1,23 @@
 +------------------------------------------------------------------+
  Pedido.:1911142155311
- - Situação........: Em Análise   Data/Hora: 14/11/2019 21:55
+ - Situação........: Em Análise	 Data/Hora: 14/11/2019 21:55
  - Vendedor........: Art Ny
  - Data Agendamento: //
 +------------------------------------------------------------------+
  Cliente: 1
-   - Rodolfo Santana
-   - (41) 99927-4994
-   - rodolfo@gmail.com
-   - Rua João Esmanhoto, 35 casa
-   - São Braz  Curitiba-PR
+	 - Rodolfo Santana
+	 - (41) 99927-4994
+	 - rodolfo@gmail.com
+	 - Rua João Esmanhoto, 35 casa
+	 - São Braz	Curitiba-PR
 +------------------------------------------------------------------+
  Itens 
 +------------------------------------------------------------------+
-   + Item: 1
-     4317 - Bolo no Pote – Dois amores
-     Bolo no Pote – Dois amores
-     bolos
-     1UN x R$ 3,50 = 3.50
+	 + Item: 1
+		 4317 - Bolo no Pote – Dois amores
+		 Bolo no Pote – Dois amores
+		 bolos
+		 1UN x R$ 3,50 = 3.50
 
 +------------------------------------------------------------------+
  - Taxa Entrega....: 3.00
@@ -25,5 +25,5 @@
  - Total Pedido....: 6.50
 +------------------------------------------------------------------+
  - Observação 
-    
+		
 +------------------------------------------------------------------+

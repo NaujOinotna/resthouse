@@ -1,111 +1,111 @@
 
 --PRECOS POR PRODUTO E TAMANHO
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
+		VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
+		VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
+		VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
+		VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Mussarela')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
+		VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
+		VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
+		VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
+		VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Alho e Óleo')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
+		VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
+		VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
+		VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
+		VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Napolitano')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
+		VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
+		VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
+		VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
+		VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Marguerita')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
+		VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
+		VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
+		VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
+		VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
+		VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
+		VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
+		VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
+		VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Calabresa')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
+		VALUES('4', '34,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
+		VALUES('3', '29,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
+		VALUES('2', '23,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
-    
+		VALUES('1', '17,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Milho com Bacon')));
+		
 -- Especiais
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
+		VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
+		VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
+		VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
+		VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Atum')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
+		VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
+		VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
+		VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
+		VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Brasileira')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
+		VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
+		VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
+		VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
+		VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Caipira')));
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
+		VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
+		VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
+		VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
+		VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Romanesca')));
 
 
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));
+		VALUES('4', '36,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));
+		VALUES('3', '32,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));
+		VALUES('2', '28,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));
 INSERT INTO produto_tamanho(tamanho, valor, dtregistro, produto_id)
-    VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));
+		VALUES('1', '22,90', NULL, (SELECT id FROM produto WHERE descricao IN ('Peruana')));

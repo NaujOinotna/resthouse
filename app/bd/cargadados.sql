@@ -21,7 +21,7 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (11, 'SOBREMESAS'
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', NULL, 'categorias/300x200.jpg');
 
 -- -- Associados
-/*
+/**/
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
 	VALUES (1, 'Disponivel', '1@gmail.com', 'Art Ny', 'Ateliê de Doces', 'Doces, Bolos, Sobremesas', 'Seg a Sáb', '08:00', '23:00', 'S', '3,00', 'Fisica', 'Rua Chile', '67', NULL, 'Rebouças', NULL, NULL, NULL, NULL, 'associados/1.jpg');
 
@@ -41,10 +41,10 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', 
 		 	VALUES (6, 'Disponivel', '6@gmail.com', 'Beijoca', 'Ateliê de Doces', 'Doces, Bolos, Sobremesas', 'Seg a Sáb', '08:00', '21:00', 'S', '3,00', 'Juridica', 'Rua Chile', '67', NULL, 'Rebouças', NULL, NULL, NULL, NULL, 'associados/6.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-			VALUES (7, 'Disponivel', '7@gmail.com', 'Irmãos P.D.J', '', 'Lanches, Porções, Refeições', 'Seg a Dom', '19:00', '00:00', 'N', '0,00', 'Juridica', 'Rua Pedro Costa Cunha', '37', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/500x300.jpg');
+			VALUES (7, 'Disponivel', '7@gmail.com', 'Delivery do Bessão', '', 'Lanches, Porções, Refeições', 'Seg a Dom', '19:00', '00:00', 'N', '0,00', 'Juridica', 'Rua Pedro Costa Cunha', '37', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/7.png');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-			VALUES (8, 'Disponivel', '8@gmail.com', 'Val Bebidas', '',	'Bebidas', 'Seg a Sex', '09:30', '20:30', 'S', '3,00', 'Juridica', 'Rua Manoel Martins de Abreu', '158', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/500x300.jpg');
+			VALUES (8, 'Disponivel', '8@gmail.com', 'Val Bebidas', '',	'Bebidas', 'Seg a Sex', '09:30', '20:30', 'S', '3,00', 'Juridica', 'Rua Manoel Martins de Abreu', '158', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/8.png');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
 		 	VALUES (9, 'Disponivel', '9@gmail.com', 'Rei dos Salgados', 'A melhor comida caseira da região.', 'Salgados, Refeições', 'Seg a Sex', '06:30', '18:30', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/9.jpg');
@@ -53,22 +53,22 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', 
 		 	VALUES (10, 'Disponivel', '10@gmail.com', 'Lisa Salgados', '', 'Doces, Bolos, Salgados', 'Seg a Dom', '08:00', '20:00', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/10.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-		 	VALUES (11, 'Disponivel', '11@gmail.com', 'Feijoada da Dona Rosa', '', 'Refeições, Feijoada', 'Sáb', '11:30', '14:30', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/500x300.jpg');
+		 	VALUES (11, 'Disponivel', '11@gmail.com', 'Feijoada da Dona Rosa', '', 'Refeições, Feijoada', 'Sáb', '11:30', '14:30', 'X', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/11.png');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-		 	VALUES (12, 'Disponivel', '12@gmail.com', 'Jeu Panquecas', '',	'Panquecas, Refeições', 'Seg a Sex', '18:00', '21:00', 'X', '0,00', 'Juridica', 'Rua Manoel Freire', '137', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/500x300.jpg');
-*/
+		 	VALUES (12, 'Disponivel', '12@gmail.com', 'Jeu Panquecas', '',	'Panquecas, Refeições', 'Seg a Sex', '18:00', '21:00', 'X', '0,00', 'Juridica', 'Rua Manoel Freire', '137', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/12.png');
+/**/
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-		 	VALUES (13, 'Disponivel', '13@gmail.com', 'Confeitaria da Cris', '', 'Lanches, Hamburger, Porcões', 'Seg a Dom', '', '', 'N', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/13.jpg');
-/*
+		 	VALUES (13, 'Disponivel', '13@gmail.com', 'Confeitaria da Crys', '', 'Lanches, Hamburger, Porcões', 'Seg a Dom', '', '', 'N', '0,00', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/13.jpg');
+/**/
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-		 	VALUES (14, 'Disponivel', '14@gmail.com', 'Eparry Pastel', '', 'Pastel, Bebidas', 'Ter a Sáb', '18:00', '00:00', 'X', '0,00', 'Juridica', 'Rua Manoel Martins de Abreu', '129', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/500x300.jpg');
+		 	VALUES (14, 'Disponivel', '14@gmail.com', 'Eparry Pastel', '', 'Pastel, Bebidas', 'Ter a Sáb', '18:00', '00:00', 'X', '0,00', 'Juridica', 'Rua Manoel Martins de Abreu', '129', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/14.jpg');
 
  INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-	VALUES (15, 'Disponivel', '15gmail.com', 'Pizzaria Dom Juan', '', 'Pizzas, Lanches', 'Seg a Dom', '19:00', '23:59', 'S', '2,50', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/500x300.jpg');
-*/
+	VALUES (15, 'Disponivel', '15gmail.com', 'Pizzaria Dom Juan', '', 'Pizzas, Lanches', 'Seg a Dom', '19:00', '23:59', 'S', '2,50', 'Juridica', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'associados/15.jpg');
+/**/
 --categoriaxassociado
-/*
+/**/
  INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 				VALUES(1, 2, 1,	'', '', NULL);
  INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
@@ -136,14 +136,14 @@ INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, d
 
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 				VALUES(29, 10, 12,	'', '', NULL);
-*/
+/**/
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 				VALUES(30, 1, 13,	'', '', NULL);
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 				VALUES(31, 5, 13,	'', '', NULL);
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 				VALUES(32, 9, 13,	'', '', NULL);
-/*
+/**/
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 				VALUES(33, 1, 14,	'', '', NULL);
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
@@ -156,9 +156,9 @@ INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, d
 				VALUES(36, 8, 15,	'', '', NULL);
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 				VALUES(37, 9, 15,	'', '', NULL);
-*/
+/**/
 -- Tabela Produtos
-/*
+/**/
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Kit Brigadeiros - C/ 4 unidades', '5,50', '25 g', 'UN', 'produtos/100x100.jpg', 2, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
@@ -565,7 +565,7 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 	VALUES ('Adicional de cheiro verde', '0,50', '	', 'UN', 'produtos/100x100.jpg', 29, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Adicional de extrato de tomate', '0,50', '	', 'UN', 'produtos/100x100.jpg', 29, 'default', NULL);
-*/
+/**/
 --crys
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('F.P', '13,00', 'Hambúrguer caseiro de 120 gr temperado com 11 ingredientes, frango grelhado, bacon defumado, cheddar, queijo cremoso, molho caseiro, alface, tomate e molho especial barbecue. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
@@ -602,7 +602,7 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('X Egg', '8,50', 'Hambúrguer tradicional, queijo, presunto, ovo, alface, tomate e molho caseiro. ', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X Crispy', '12,00', 'Hambúrguer bovino, queijo duplo, bacon, cebola crispy, barbecue, alface, tomate e molho especial, envolvido no pão artesanal.	', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
+	VALUES ('X Cryspy', '12,00', 'Hambúrguer bovino, queijo duplo, bacon, cebola Cryspy, barbecue, alface, tomate e molho especial, envolvido no pão artesanal.	', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Bacon Lovers', '12,00', 'Dois hambúrgueres bovinos, muito bacon, cheddar, molho especial, envolvido no pão artesanal.	', 'UN', 'produtos/13.jpg', 31, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
@@ -633,7 +633,7 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 	VALUES ('Laranja', '5,00', '	', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Adicional', '1,50', 'Adicionar leite ao suco', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
-/*
+/**/
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Carne', '5,00', '	', 'UN', 'produtos/100x100.jpg', 34, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
@@ -796,4 +796,4 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 	VALUES ('Chocolate Preto', '0,00', '	', 'UN', 'produtos/100x100.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Chocolate Branco', '0,00', '	', 'UN', 'produtos/100x100.jpg', 36, 'Doces', NULL);
-*/
+/**/

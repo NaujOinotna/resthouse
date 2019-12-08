@@ -183,7 +183,10 @@ def atualizarAssociado():
 def carregar_cardapio(associado_id):
     if 'email' in session:
         associado = oper.obterAssociadoById(associado_id)
-        return render_template('cardapio.html', associado=associado)
+
+        carrinho = oper.obterCarrinho(session.get("id"))
+
+        return render_template('cardapio.html', associado=associado, carrinho=carrinho)
     else:
         return render_template('login.html', page=None)
 
@@ -194,7 +197,10 @@ def carregar_cardapio_produtos(associado_categoria_id):
         associado_categoria = oper.obterAssociadoCategoriaById(
             associado_categoria_id)
         associado = oper.obterAssociadoById(associado_categoria.associado_id)
-        return render_template('cardapio_produtos.html', associado=associado, associado_categoria=associado_categoria)
+
+        carrinho = oper.obterCarrinho(session.get("id"))
+
+        return render_template('cardapio_produtos.html', associado=associado, associado_categoria=associado_categoria, carrinho=carrinho)
     else:
         return render_template('login.html', page=None)
 

@@ -32,7 +32,7 @@
             {% if carrinho|length > 0 %}
               <a id="btn-carrinho" style="color:white; font-size:15px"  type="link" class="btn btn-link" href="{{ url_for('views.obterCarrinho')}}">  
                 <i style="font-size:25px;border-color:white; background-color:#720fa3; border-radius:10px; padding:10px" class="glyphicon glyphicon-shopping-cart">
-                  <span style="padding-left:5px">{{carrinho|length}}</span>
+                  <span>{{carrinho|length}}</span>
                 </i>             
               </a>
             {% else %}

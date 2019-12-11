@@ -168,7 +168,8 @@ $(document).ready(function () {
 		var produto = jQuery.parseJSON($(this).val());
 		var categoria = $("#lblCategoria").html().trim().replace('<b>', "").replace('</b>', "");
 		var quantidade = $("input[class=quantity" + produto.id + "]").val();
-
+		console.log("btn add carrinho, qtd: " + quantidade);
+			
 		if(quantidade>0){	 
 			$.ajax({
 				type: "POST",

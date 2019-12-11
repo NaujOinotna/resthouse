@@ -17,7 +17,7 @@
 	<!-- corpo -->
 	<body style="background:#fcf8ef">
 
-			<div class="container" style="background:#F58634; border-color:#F58634">
+			<div id="cabec" class="container" style="background:#F58634; border-color:#F58634; position:fixed; width:100%">
 				<div class="row">
 					<div class="col-12">
 					<!-- cabecalho Associado -->
@@ -54,6 +54,12 @@
 				</div>
 			</div>
 
+			<div id="cabec-spacer"></div>
+			<script type="text/javascript">
+				let h = document.getElementById('cabec').clientHeight;
+				document.getElementById('cabec-spacer').style.height = h + "px";
+			</script>
+			
 			<div class="container">
 				<div class="row">										
 						<div class="panel-group">						

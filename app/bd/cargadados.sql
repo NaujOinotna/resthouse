@@ -635,165 +635,165 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 	VALUES ('Adicional', '1,50', 'Adicionar leite ao suco', 'UN', 'produtos/suco.jpg', 30, 'default', NULL);
 /**/
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Carne', '5,00', '	', 'UN', 'associados/100x100/15.jpg', 34, 'default', NULL);
+	VALUES ('Carne', '5,00', '	', 'UN', 'associados/100x100/14.jpg', 34, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Frango com catupiry', '5,00', '	', 'UN', 'associados/100x100/15.jpg', 34, 'default', NULL);
+	VALUES ('Frango com catupiry', '5,00', '	', 'UN', 'associados/100x100/14.jpg', 34, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Queijo e presunto', '5,00', '	', 'UN', 'associados/100x100/15.jpg', 34, 'default', NULL);
+	VALUES ('Queijo e presunto', '5,00', '	', 'UN', 'associados/100x100/14.jpg', 34, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Queijo', '5,00', '	', 'UN', 'associados/100x100/15.jpg', 34, 'default', NULL);
+	VALUES ('Queijo', '5,00', '	', 'UN', 'associados/100x100/14.jpg', 34, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Coca-cola', '3,50', '	', 'UN', 'associados/100x100/15.jpg', 33, 'default', NULL);
+	VALUES ('Coca-cola', '3,50', '	', 'UN', 'associados/100x100/14.jpg', 33, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Fanta laranja', '3,50', '	', 'UN', 'associados/100x100/15.jpg', 33, 'default', NULL);
+	VALUES ('Fanta laranja', '3,50', '	', 'UN', 'associados/100x100/14.jpg', 33, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Guaraná', '3,50', '	', 'UN', 'associados/100x100/15.jpg', 33, 'default', NULL);
+	VALUES ('Guaraná', '3,50', '	', 'UN', 'associados/100x100/14.jpg', 33, 'default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X-Burguer', '5,00', 'Pão, maionese, hambúrguer, queijo cheddar', 'UN', 'associados/100x100/16.jpg', 35, 'Default', NULL);
+	VALUES ('X-Burguer', '5,00', 'Pão, maionese, hambúrguer, queijo cheddar', 'UN', 'associados/100x100/15.jpg', 35, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X-Egg', '6,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto e ovo', 'UN', 'associados/100x100/16.jpg', 35, 'Default', NULL);
+	VALUES ('X-Egg', '6,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto e ovo', 'UN', 'associados/100x100/15.jpg', 35, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X-Salada', '5,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate', 'UN', 'associados/100x100/16.jpg', 35, 'Default', NULL);
+	VALUES ('X-Salada', '5,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate', 'UN', 'associados/100x100/15.jpg', 35, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X-Bacon', '8,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, bacon', 'UN', 'associados/100x100/16.jpg', 35, 'Default', NULL);
+	VALUES ('X-Bacon', '8,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, bacon', 'UN', 'associados/100x100/15.jpg', 35, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X-Calabresa', '8,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, calabresa', 'UN', 'associados/100x100/16.jpg', 35, 'Default', NULL);
+	VALUES ('X-Calabresa', '8,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, calabresa', 'UN', 'associados/100x100/15.jpg', 35, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X-Frango', '9,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, filé de peito de frango', 'UN', 'associados/100x100/16.jpg', 35, 'Default', NULL);
+	VALUES ('X-Frango', '9,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, filé de peito de frango', 'UN', 'associados/100x100/15.jpg', 35, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('X-Tudo', '12,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, filé de peito de frango, bacon, calabresa e milho', 'UN', 'associados/100x100/16.jpg', 35, 'Default', NULL);
+	VALUES ('X-Tudo', '12,00', 'Pão, maionese, hambúrguer, queijo cheddar, presunto, alface e tomate, filé de peito de frango, bacon, calabresa e milho', 'UN', 'associados/100x100/15.jpg', 35, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Porção de batata', '13,50', 'não informado', 'UN', 'associados/100x100/16.jpg', 37, 'Default', NULL);
+	VALUES ('Porção de batata', '13,50', 'não informado', 'UN', 'associados/100x100/15.jpg', 37, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Porção de polenta', '13,50', 'não informado', 'UN', 'associados/100x100/16.jpg', 37, 'Default', NULL);
+	VALUES ('Porção de polenta', '13,50', 'não informado', 'UN', 'associados/100x100/15.jpg', 37, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Porção de aipim', '13,00', 'não informado', 'UN', 'associados/100x100/16.jpg', 37, 'Default', NULL);
+	VALUES ('Porção de aipim', '13,00', 'não informado', 'UN', 'associados/100x100/15.jpg', 37, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Porção de frango a passarinho', '14,00', 'não informado', 'UN', 'associados/100x100/16.jpg', 37, 'Default', NULL);
+	VALUES ('Porção de frango a passarinho', '14,00', 'não informado', 'UN', 'associados/100x100/15.jpg', 37, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Porção de anéis de cebola', '14,00', 'não informado', 'UN', 'associados/100x100/16.jpg', 37, 'Default', NULL);
+	VALUES ('Porção de anéis de cebola', '14,00', 'não informado', 'UN', 'associados/100x100/15.jpg', 37, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Porção de tiras de frango empanado', '14,00', 'não informado', 'UN', 'associados/100x100/16.jpg', 37, 'Default', NULL);
+	VALUES ('Porção de tiras de frango empanado', '14,00', 'não informado', 'UN', 'associados/100x100/15.jpg', 37, 'Default', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Mussarela', '0,00', 'Molho, mussarela, azeitona e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Mussarela', '0,00', 'Molho, mussarela, azeitona e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Alho e Óleo', '0,00', 'Molho, mussarela, alho, óleo e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Alho e Óleo', '0,00', 'Molho, mussarela, alho, óleo e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Napolitano', '0,00', 'Molho, mussarela, tomate, parmesão e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Napolitano', '0,00', 'Molho, mussarela, tomate, parmesão e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Marguerita', '0,00', 'Molho, mussarela, tomate, manjericão e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Marguerita', '0,00', 'Molho, mussarela, tomate, manjericão e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Milho', '0,00', 'Molho, mussarela, milho e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Milho', '0,00', 'Molho, mussarela, milho e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Calabresa', '0,00', 'Molho, mussarela, calabresa, cebola, azeitona e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Calabresa', '0,00', 'Molho, mussarela, calabresa, cebola, azeitona e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Milho com Bacon', '0,00', 'Molho, mussarela, milho, bacon e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Milho com Bacon', '0,00', 'Molho, mussarela, milho, bacon e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Presunto', '0,00', 'Molho, mussarela, presunto e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Presunto', '0,00', 'Molho, mussarela, presunto e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Toscana', '0,00', 'Molho, mussarela, presunto, tomate e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Toscana', '0,00', 'Molho, mussarela, presunto, tomate e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Lombo', '0,00', 'Molho, mussarela, lombo e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Lombo', '0,00', 'Molho, mussarela, lombo e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Catupiry', '0,00', 'Molho, mussarela, catupiry e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Catupiry', '0,00', 'Molho, mussarela, catupiry e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Palmito', '0,00', 'Molho, mussarela, palmito e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Palmito', '0,00', 'Molho, mussarela, palmito e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Bacon', '0,00', 'Molho, mussarela, bacon e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Bacon', '0,00', 'Molho, mussarela, bacon e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Crocante I', '0,00', 'Molho, mussarela, calabresa, batata-palha e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Crocante I', '0,00', 'Molho, mussarela, calabresa, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Crocante II', '0,00', 'Molho, mussarela, bacon, batata-palha e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Crocante II', '0,00', 'Molho, mussarela, bacon, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Frango', '0,00', 'Molho, mussarela, frango e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Frango', '0,00', 'Molho, mussarela, frango e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Portuguesa', '0,00', 'Molho, mussarela, presunto, cebola, azeitona, ovo e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Portuguesa', '0,00', 'Molho, mussarela, presunto, cebola, azeitona, ovo e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Parmegiana', '0,00', 'Molho, mussarela, presunto, molho, parmesão e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Parmegiana', '0,00', 'Molho, mussarela, presunto, molho, parmesão e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Americana', '0,00', 'Molho, mussarela, tomate, bacon, pimentão, palmito e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Americana', '0,00', 'Molho, mussarela, tomate, bacon, pimentão, palmito e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Hot-Dog', '0,00', 'Molho, mussarela, vina, milho, ervilha, batata-palha e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Hot-Dog', '0,00', 'Molho, mussarela, vina, milho, ervilha, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Atum', '0,00', 'Molho, mussarela, atum, cebola e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Atum', '0,00', 'Molho, mussarela, atum, cebola e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Brasileira', '0,00', 'Molho, mussarela, bacon, calabresa, cheddar, azeitona e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Brasileira', '0,00', 'Molho, mussarela, bacon, calabresa, cheddar, azeitona e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Caipira', '0,00', 'Molho, mussarela, frango, milho,bacon e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Caipira', '0,00', 'Molho, mussarela, frango, milho,bacon e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Romanesca', '0,00', 'Molho, mussarela, frango, milho, tomate, palmito e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Romanesca', '0,00', 'Molho, mussarela, frango, milho, tomate, palmito e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Peruana', '0,00', 'Molho, mussarela, atun, ervilha, cebola e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Peruana', '0,00', 'Molho, mussarela, atun, ervilha, cebola e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Queijos', '0,00', 'Molho, mussarela, catupiry, parmesão e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Queijos', '0,00', 'Molho, mussarela, catupiry, parmesão e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Frango com Catupiry/Cheddar', '0,00', 'Molho, mussarela, frango, catupiry/cheddar e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Frango com Catupiry/Cheddar', '0,00', 'Molho, mussarela, frango, catupiry/cheddar e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Especial', '0,00', 'Molho, mussarela, calabresa, milho, ovo e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Especial', '0,00', 'Molho, mussarela, calabresa, milho, ovo e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Lombo com Bacon', '0,00', 'Molho, mussarela, lombo, bacon, cheddar e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Lombo com Bacon', '0,00', 'Molho, mussarela, lombo, bacon, cheddar e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Lombo com Champignon', '0,00', 'Molho, mussarela, lombo, champignon, catupiry e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Lombo com Champignon', '0,00', 'Molho, mussarela, lombo, champignon, catupiry e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Paulista', '0,00', 'Molho, mussarela, milho, ervilha, palmito e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Paulista', '0,00', 'Molho, mussarela, milho, ervilha, palmito e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Baiana', '0,00', 'Molho, mussarela, calabresa, palmito, ovo, pimenta calabresa e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Especiais', NULL);
+	VALUES ('Baiana', '0,00', 'Molho, mussarela, calabresa, palmito, ovo, pimenta calabresa e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Especiais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('A Moda', '0,00', 'Molho, mussarela, champignon, pepperone, azeitona e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('A Moda', '0,00', 'Molho, mussarela, champignon, pepperone, azeitona e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('A Moda II', '0,00', 'Molho, mussarela, calabresa, tomate, ovo, milho, ervilha e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('A Moda II', '0,00', 'Molho, mussarela, calabresa, tomate, ovo, milho, ervilha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('A Moda da Casa I', '0,00', 'Molho, mussarela, calabresa, presunto, bacon, cheddar e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('A Moda da Casa I', '0,00', 'Molho, mussarela, calabresa, presunto, bacon, cheddar e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('A Moda da Casa II', '0,00', 'Molho, mussarela, lombo, champignon, bacon, ovo, catupiry, azeitona e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('A Moda da Casa II', '0,00', 'Molho, mussarela, lombo, champignon, bacon, ovo, catupiry, azeitona e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Imperial', '0,00', 'Molho, mussarela, frango, palmito, bacon, cream cheese e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Imperial', '0,00', 'Molho, mussarela, frango, palmito, bacon, cream cheese e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Salame', '0,00', 'Molho, mussarela, salame, cheddar e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Salame', '0,00', 'Molho, mussarela, salame, cheddar e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Pepperone', '0,00', 'Molho, mussarela, pepperone, cream cheese e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Pepperone', '0,00', 'Molho, mussarela, pepperone, cream cheese e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Strogonofe de Carne', '0,00', 'Molho, mussarela, estrogonofe de carne, champignon, batata-palha e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Strogonofe de Carne', '0,00', 'Molho, mussarela, estrogonofe de carne, champignon, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Strogonofe de Frango', '0,00', 'Molho, mussarela, estrogonofe de frango, champignon, batata-palha e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Strogonofe de Frango', '0,00', 'Molho, mussarela, estrogonofe de frango, champignon, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry, gongorzola e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry, gongorzola e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry, gongorzola, cheddar e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry, gongorzola, cheddar e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry, gongorzola, cheddar, cream cheese e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Queijos', '0,00', 'Molho, mussarela, provolone, parmesão, catupiry, gongorzola, cheddar, cream cheese e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Florença', '0,00', 'Molho, mussarela, calabresa, bacon, ovos, tomate, parmesão, manjericão e orégano', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Florença', '0,00', 'Molho, mussarela, calabresa, bacon, ovos, tomate, parmesão, manjericão e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Do Cliente', '0,00', 'Até 5 ingredientes', 'UN', 'associados/100x100/16.jpg', 36, 'Premium', NULL);
+	VALUES ('Do Cliente', '0,00', 'Até 5 ingredientes', 'UN', 'associados/100x100/15.jpg', 36, 'Premium', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Banana', '0,00', 'Creme de leite, mussarela, banana e canela', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Banana', '0,00', 'Creme de leite, mussarela, banana e canela', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Banana com Chocolate', '0,00', 'Creme de leite, mussarela, banana, chocolate preto ou branco', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Banana com Chocolate', '0,00', 'Creme de leite, mussarela, banana, chocolate preto ou branco', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Morango', '0,00', 'Creme de leite, mussarela', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Morango', '0,00', 'Creme de leite, mussarela', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Confet', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Confet', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Ele e Ela', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Ele e Ela', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Brigadeiro', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Brigadeiro', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Dois Amores', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Dois Amores', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Sensação', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Sensação', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Floresta negra', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Floresta negra', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Beijinho', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Beijinho', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Sonho de Valsa', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Sonho de Valsa', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Prestígio', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Prestígio', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Chocolate Preto', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Chocolate Preto', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Chocolate Branco', '0,00', '	', 'UN', 'associados/100x100/16.jpg', 36, 'Doces', NULL);
+	VALUES ('Chocolate Branco', '0,00', '	', 'UN', 'associados/100x100/15.jpg', 36, 'Doces', NULL);
 /**/

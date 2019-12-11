@@ -181,7 +181,6 @@ $(document).ready(function () {
 							message: "Produto adicionado ao carrinho com sucesso!",
 							size: 'small'
 						});
-						reload();
 					}
 				}
 			});

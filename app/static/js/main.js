@@ -184,7 +184,7 @@ $(document).ready(function () {
 						let btnCarrinho = document.getElementById("btn-carrinho");
 						btnCarrinho.children[0].firstChild.innerHTML++;
 						btnCarrinho.children[0].style.backgroundColor = "#720fa3";
-						shake(btnCarrinho, 1)
+						shake(btnCarrinho, 7)
 					}
 				}
 			});

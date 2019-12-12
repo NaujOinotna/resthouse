@@ -181,7 +181,7 @@ $(document).ready(function () {
 							message: "Produto adicionado ao carrinho com sucesso!",
 							size: 'small'
 						});*/
-						document.getElementById("btn-carrinho");
+						let btnCarrinho = document.getElementById("btn-carrinho");
 						btnCarrinho.children[0].firstChild.innerHTML++;
 						btnCarrinho.children[0].style.backgroundColor = "#720fa3";
 						shake(btnCarrinho, 1)

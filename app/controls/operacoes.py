@@ -1,6 +1,7 @@
 import os
 import string
 import csv
+import smtplib
 
 from flask import Flask, Blueprint
 from app.model.models import *
@@ -372,3 +373,23 @@ class Operacoes():
 						arq_txt = fp.read()
 
 				return arq_txt
+
+		def enviarEmailAvisandoPedido():
+				mail_from = 'resthouse.oficial@gmail.com'
+				mail_to = ['juan.aa.moreira@gmail.com']
+				mail_subject = 'Novo Pedido'
+				mail_message_body = 'Confere lá no app o novo pedido'
+
+				mail_to_string = ', '.join(mail_to)
+
+				mail_message = f'''
+				From: {mail_from}
+				To: {mail_to_string}
+				Subject: {mail_subject}
+
+				{mail_message_body}
+				'''
+
+				server = smtplib.SMTP('localhost')
+				server.sendmail(mail_from, mail_to, mail_subject, mail_message)
+				server.quit()

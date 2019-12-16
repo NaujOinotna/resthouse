@@ -358,6 +358,7 @@ def atualizarSituacaoFinalizado():
 		dtenvio = str(dtatual.day).zfill(2) + "/" + str(dtatual.month).zfill(2) + "/" + str(dtatual.year) + " " + str(dtatual.hour).zfill(2) + ":" + str(dtatual.minute).zfill(2)
 
 		if 'email' in session:
+				oper.enviarEmailAvisandoPedido()
 				pedido = oper.obterPedidoById(id)
 				pedido.situacao = "2"
 				pedido.dtagendamento = dtagendamento

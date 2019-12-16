@@ -19,6 +19,7 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (9, 'PORÇÕES', 
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (10, 'REFEIÇÕES', NULL, 'categorias/300x200.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (11, 'SOBREMESAS', NULL, 'categorias/sobremesas.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', NULL, 'categorias/300x200.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (13, 'YAKISOBA', NULL, 'categorias/yakisoba.jpg');
 
 -- -- Associados
 /**/
@@ -114,7 +115,7 @@ INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, d
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 	VALUES(20, 9, 7, '', '', NULL);
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
-	VALUES(21, 10, 7, '', '', NULL);
+	VALUES(21, 13, 7, '', '', NULL);
 
 INSERT INTO associado_categorias(id, categoria_id, associado_id, resumo, logo, dtregistro)
 	VALUES(22, 1, 8, '', '', NULL);
@@ -703,7 +704,7 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Crocante I', '0,00', 'Molho, mussarela, calabresa, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Crocante II', '0,00', 'Molho, mussarela, bacon, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
+	VALUES ('Crocante II', '0,00', 'Molho, mussarela, bacon, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);e
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Frango', '0,00', 'Molho, mussarela, frango e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 

@@ -358,7 +358,6 @@ def atualizarSituacaoFinalizado():
 		dtenvio = str(dtatual.day).zfill(2) + "/" + str(dtatual.month).zfill(2) + "/" + str(dtatual.year) + " " + str(dtatual.hour).zfill(2) + ":" + str(dtatual.minute).zfill(2)
 
 		if 'email' in session:
-				oper.enviarEmailAvisandoPedido()
 				pedido = oper.obterPedidoById(id)
 				pedido.situacao = "2"
 				pedido.dtagendamento = dtagendamento
@@ -372,11 +371,13 @@ def atualizarSituacaoFinalizado():
 						# dtagendamento deve ser maior que a data atual		 
 						if d1 > d2:
 								result = oper.atualizarPedido(pedido)
+								#oper.enviarEmailAvisandoPedido()
 								return result.get("code")						
 						else:		
 								return "Data de Agendamento deve ser maior que a Data Atual"
 				else:
 						result = oper.atualizarPedido(pedido)
+						#oper.enviarEmailAvisandoPedido()
 						return result.get("code")														
 
 		else:

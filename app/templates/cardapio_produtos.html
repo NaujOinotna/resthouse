@@ -100,7 +100,8 @@
 																<span id="lblPreco" class="pull-left" style="margin-top:12px; font-size:20px; color:#F58634">0.00</span>
 														 
 																<button id="btnAdicionarPizzaCarrinho" type="button" class="btn btn-link btn-xs" style="background:#F58634; color:white">
-																	<i class="material-icons">add_shopping_cart</i><br>Adicionar ao carrinho
+																	<i class="material-icons">add_shopping_cart</i>
+																	<br>Adicionar ao carrinho
 																</button> </b>
 														</div>														 
 
@@ -149,12 +150,20 @@
 																															<span class="badge badge-pill badge-xs pull-left" style="margin-left:-1px;margin-top:-5px; background:white; color:#563A2D; font-size:16px; display:none" name="{{tamanho.tamanho}}" > R$ {{tamanho.valor}}</span>
 																														{% endfor %}								
 
+																														<!--
 																														<span class="badge badge-pill pull-right" style="font-size:10px; margin-top:-5px; color:white; background:#F58634">
 																															<i class="material-icons">add</i><br>																						
 																															<button type="button" class="adicionaSabor btn-link"	style="color:white" name="adicionaSabor" value='{"id":"{{produto.id}}", "descricao":"{{produto.descricao}}", "resumo":"{{produto.resumo}}", "tipo":"{{produto.tipo}}", "valor":"{{produto.valor}}", "associado_id":"{{associado_categoria.associado_id}}", "associado_categoria":{{associado_categoria.id}} }'>
 																																adicionar <br>sabor
 																															</button>			 
-																														</span>																																																										 
+																														</span>	
+																														-->
+
+																														<button type="button" class="badge badge-pill pull-right adicionaSabor btn-link" style="font-size:10px; margin-top:-5px; color:white; background:#F58634" name="adicionaSabor" value='{"id":"{{produto.id}}", "descricao":"{{produto.descricao}}", "resumo":"{{produto.resumo}}", "tipo":"{{produto.tipo}}", "valor":"{{produto.valor}}", "associado_id":"{{associado_categoria.associado_id}}", "associado_categoria":{{associado_categoria.id}} }'>
+																															<i class="material-icons">add</i>
+																															<br>adicionar
+																															<br>sabor
+																														</button>																																																							 
 																													</div>
 
 																											</div>													
@@ -188,29 +197,13 @@
 																<div class="media-body">
 																	<h6 style="color:#F58634; margin-top:5px; margin-right:2px">{{produto.resumo}}</h6>																																			
 																	<h4 style="color:#563A2D; margin-top:-3px"><b>R$ {{produto.valor}}</b> 
-																	</h4>			
-																	<!--
-																	<span class="badge badge-pill pull-right" style="font-size:12px;margin-top:-30px; ccolor:white;background:#F58634">
-																		<i class="material-icons">add_shopping_cart</i><br>																						
-																		<button type="button" class="btnAdicionarProdutoCarrinho btn btn-link btn-xs"	style="color:white"	value='{"id":"{{produto.id}}", "descricao":"{{produto.descricao}}", "resumo":"{{produto.resumo}}", "tipo":"{{produto.tipo}}", "valor":"{{produto.valor}}", "associado_id":"{{associado_categoria.associado_id}}", "associado_categoria":{{associado_categoria.id}} }'>
-																			adicionar ao <br> carrinho
-																		</button>			 
-																	</span>		
-																	-->	
+																	</h4>	
+
 																	<button type="button" class="badge badge-pill pull-right btnAdicionarProdutoCarrinho btn btn-link btn-xs" style="font-size:12px;margin-top:-30px; color:white;background:#F58634" value='{"id":"{{produto.id}}", "descricao":"{{produto.descricao}}", "resumo":"{{produto.resumo}}", "tipo":"{{produto.tipo}}", "valor":"{{produto.valor}}", "associado_id":"{{associado_categoria.associado_id}}", "associado_categoria":{{associado_categoria.id}} }'>
 																		<i class="material-icons">add_shopping_cart</i>
 																		<br>adicionar ao
 																		<br> carrinho
 																	</button>		
-																	<!--
-	<button type="button" class="badge badge-pill pull-right btnAdicionarProdutoCarrinho btn btn-link btn-xs" style="font-size:12px;margin-top:-30px; color:white;background:#F58634" value="{&quot;id&quot;:&quot;2217&quot;, &quot;descricao&quot;:&quot;Peixe&quot;, &quot;resumo&quot;:&quot; &quot;, &quot;tipo&quot;:&quot;default&quot;, &quot;valor&quot;:&quot;27,00&quot;, &quot;associado_id&quot;:&quot;7&quot;, &quot;associado_categoria&quot;:20 }">
-		<i class="material-icons">add_shopping_cart</i>
-		<br>adicionar ao
-		<br> carrinho
-	</button>	
-
-																	value="{&quot;id&quot;:&quot;2217&quot;, &quot;descricao&quot;:&quot;Peixe&quot;, &quot;resumo&quot;:&quot; &quot;, &quot;tipo&quot;:&quot;default&quot;, &quot;valor&quot;:&quot;27,00&quot;, &quot;associado_id&quot;:&quot;7&quot;, &quot;associado_categoria&quot;:20 }"																																																															 
--->
 
 																	<h5 style=" margin-top:-1px">
 																		<span class="badge badge-pill" style="color:#F58634; background:white; border:1px solid #c0c0c0">

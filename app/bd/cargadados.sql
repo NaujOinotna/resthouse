@@ -21,6 +21,7 @@ INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (10, 'REFEIÇÕES
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (11, 'SOBREMESAS', NULL, 'categorias/sobremesas.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', NULL, 'categorias/salgados.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (13, 'YAKISOBA', NULL, 'categorias/yakisoba.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (14, 'BEBIDAS', NULL, 'categorias/sucos.jpg');
 
 -- -- Associados
 /**/

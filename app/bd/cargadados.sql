@@ -1,3 +1,4 @@
+--cat cargadados.sql | heroku pg:psql --app resthouse
 DELETE FROM produto_tamanho;
 DELETE FROM produto;
 DELETE FROM associado_categorias;

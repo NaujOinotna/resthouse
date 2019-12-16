@@ -65,8 +65,8 @@
 						<div class="panel-group">						
 						
 							{% for categoria in associado.categorias_associado	%}
-									
-								<a style = "width:100%; padding: 0px; margin: 0px" id="btn-produtos" type="link" class="panel panel-default btn btn-link btn-md" href="{{ url_for('views.carregar_cardapio_produtos', associado_categoria_id=categoria.id) }}">
+									<!--class="btn btn-link btn-md"-->
+								<a style = "width:100%; padding: 0px; margin: 0px" id="btn-produtos" type="link"  href="{{ url_for('views.carregar_cardapio_produtos', associado_categoria_id=categoria.id) }}">
 									<div class="panel panel-default"style="margin-top:5px; margin-left:5px; margin-right:5px">
 										<div class="panel-body" >
 												<div class="media" >

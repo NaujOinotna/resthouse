@@ -10,16 +10,16 @@ DELETE FROM categoria;
 -- Categoria (OK)
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (1, 'BEBIDAS', NULL, 'categorias/bebidas.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (2, 'BOLOS', NULL, 'categorias/bolos.jpg');
-INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (3, 'DOCES', NULL, 'categorias/300x200.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (3, 'DOCES', NULL, 'categorias/doces.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (4, 'CACHORROS-QUENTES', NULL, 'categorias/hotdogs.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (5, 'HAMBURGUER', NULL, 'categorias/hamburguer.jpg');
-INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (6, 'KITS FESTA', NULL, 'categorias/doces.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (6, 'KITS FESTA', NULL, 'categorias/kitfesta.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (7, 'LANCHES', NULL, 'categorias/lanches.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (8, 'PIZZAS', NULL, 'categorias/pizzas.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (9, 'PORÇÕES', NULL, 'categorias/porcoes.jpg');
-INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (10, 'REFEIÇÕES', NULL, 'categorias/300x200.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (10, 'REFEIÇÕES', NULL, 'categorias/refeicoes.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (11, 'SOBREMESAS', NULL, 'categorias/sobremesas.jpg');
-INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', NULL, 'categorias/300x200.jpg');
+INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (12, 'SALGADOS', NULL, 'categorias/salgados.jpg');
 INSERT INTO categoria (id, descricao, dtregistro, logo)	VALUES (13, 'YAKISOBA', NULL, 'categorias/yakisoba.jpg');
 
 -- -- Associados
@@ -43,7 +43,7 @@ INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, fun
 	VALUES (6, 'Disponivel', '6@gmail.com', 'Beijoca', 'Ateliê de Doces', 'Doces, Bolos, Sobremesas', 'Seg a Sáb', '08:00', '21:00', 'S', '3,00', 'Juridica', 'Rua Chile', '67', NULL, 'Rebouças', NULL, NULL, NULL, NULL, 'associados/6.jpg');
 
 INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
-	VALUES (7, 'Disponivel', '7@gmail.com', 'Delivery do Bessão', '', 'Lanches, Porções, Refeições', 'Seg a Dom', '19:00', '00:00', 'N', '0,00', 'Juridica', 'Rua Pedro Costa Cunha', '37', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/7.jpg');
+	VALUES (7, 'Disponivel', '7@gmail.com', 'Delivery do Beção', '', 'Lanches, Porções, Refeições', 'Seg a Dom', '19:00', '00:00', 'N', '0,00', 'Juridica', 'Rua Pedro Costa Cunha', '37', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/7.jpg');
 
 INSERT INTO associado (id, situacao, email, nomefantasia, resumo, categoria, funcionamentodias, funcionamentohorarioinicio, funcionamentohorariotermino, taxaentrega, valortaxaentrega, tipopessoa, logradouro, numero, complemento, bairro, cidade, estado, cep, dtregistro, logo) 
 	VALUES (8, 'Disponivel', '8@gmail.com', 'Val Bebidas', '', 'Bebidas', 'Seg a Sex', '09:30', '20:30', 'S', '3,00', 'Juridica', 'Rua Manoel Martins de Abreu', '158', NULL, 'Prado Velho', NULL, NULL, NULL, NULL, 'associados/8.jpg');

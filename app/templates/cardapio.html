@@ -65,14 +65,18 @@
 						<div class="panel-group">						
 						
 							{% for categoria in associado.categorias_associado	%}
-									<div class="panel panel-default btn-link" style="margin-top:5px; margin-left:5px; margin-right:5px" id="btn-produtos" type="link" href="{{ url_for('views.carregar_cardapio_produtos', associado_categoria_id=categoria.id) }}">
+									
+								<a style = "width:100%" id="btn-produtos" type="link" class="btn btn-link btn-md" href="{{ url_for('views.carregar_cardapio_produtos', associado_categoria_id=categoria.id) }}">
+									<div class="panel panel-default"style="margin-top:5px; margin-left:5px; margin-right:5px">
 										<div class="panel-body" >
 												<div class="media" >
 														<h4 style="color:#F58634; margin-top:1px"><b>{{categoria.catego.descricao}}</b></h4>
 
 													<img class="pull-left" src="{{ url_for('views.media', filename=categoria.catego.logo)}}" >
 													<span class="pull-right" style="margin-top:16px; margin-left:-5px; margin-right:-19px">
-															<i style="color:#F58634; background:white" class="material-icons">arrow_forward_ios</i>
+															<span style="color:#F58634; background:white">
+																<i class="material-icons">arrow_forward_ios</i>
+															</span>
 													</span>
 													<div class="media-body">
 														<h6 style="color:#F58634; margin-top:5px; margin-right:2px">{{categoria.resumo}}</h6>						
@@ -81,7 +85,8 @@
 
 												</div>													
 										</div>
-									</div>
+									</div>						
+								</a>
 <!--
 									<div class="panel panel-default"style="margin-top:5px; margin-left:5px; margin-right:5px">
 										<div class="panel-body" >

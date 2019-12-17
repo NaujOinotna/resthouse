@@ -706,7 +706,7 @@ INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Crocante I', '0,00', 'Molho, mussarela, calabresa, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
-	VALUES ('Crocante II', '0,00', 'Molho, mussarela, bacon, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);e
+	VALUES ('Crocante II', '0,00', 'Molho, mussarela, bacon, batata-palha e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 
 	VALUES ('Frango', '0,00', 'Molho, mussarela, frango e orégano', 'UN', 'associados/100x100/15.jpg', 36, 'Tradicionais', NULL);
 INSERT INTO produto (descricao, valor, resumo, medida, logo, associado_categoria_id, tipo, dtregistro) 

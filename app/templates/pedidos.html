@@ -199,8 +199,8 @@
 
 														{% if pedido.situacao == "1" %}
 														    <input type="radio" onclick="javascript:formaPagamentoCheck({{pedido.id}}, {{pedido.total_pedido}});" name="forma_pagamento_{{pedido.id}}" value="credito" id="CreditoRadio_{{pedido.id}}"> Credito<br>
-															<input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento_{{pedido.id}}" value="debito" id="DebitoRadio_{{pedido.id}}"> Debito<br>
-															<input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento_{{pedido.id}}" value="dinheiro" id="DinheiroRadio_{{pedido.id}}"> Dinheiro<br>  
+															<input type="radio" onclick="javascript:formaPagamentoCheck({{pedido.id}}, {{pedido.total_pedido}});" name="forma_pagamento_{{pedido.id}}" value="debito" id="DebitoRadio_{{pedido.id}}"> Debito<br>
+															<input type="radio" onclick="javascript:formaPagamentoCheck({{pedido.id}}, {{pedido.total_pedido}});" name="forma_pagamento_{{pedido.id}}" value="dinheiro" id="DinheiroRadio_{{pedido.id}}"> Dinheiro<br>  
 															<span style="padding-left:50px; display:none" id="Troco_{{pedido.id}}">Troco para R$<input type="number" min="1" step="any" style="width:50px" id="TrocoParaInput_{{pedido.id}}"/></span><br>
 
 															<span class="badge badge-pill badge-light pull-left" style="background:#F58634; margin-top:-10px; margin-right:-1px; margin-bottom:5px; display:none" id="btnFinalizarPedido_{{pedido.id}}">

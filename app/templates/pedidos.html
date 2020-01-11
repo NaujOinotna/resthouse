@@ -184,10 +184,9 @@
 														<script type="text/javascript">
 
 														function formaPagamentoCheck(pedido, total_pedido) {
-															console.log(pedido + " | " + total_pedido)
 														    if (document.getElementById('DinheiroRadio_'+pedido).checked) {
 														        document.getElementById('Troco_'+pedido).style.display = 'block';
-														        document.getElementById('TrocoParaInput_'+pedido) = Math.ceil( total_pedido / 10.0 ) * 10;
+														        document.getElementById('TrocoParaInput_'+pedido).value = Math.ceil( total_pedido / 10.0 ) * 10;
 														    } else {
 														        document.getElementById('Troco_'+pedido).style.display = 'none';
 														    }

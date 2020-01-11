@@ -128,7 +128,9 @@ CREATE TABLE pedido (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 											 observacao VARCHAR(150) NULL,
 											 motivo_cancelamento VARCHAR(150) NULL,
 											 dtregistro VARCHAR(30)	NULL,
-											 dtenvio VARCHAR(30)	NULL);													
+											 dtenvio VARCHAR(30)	NULL,
+											 
+											 );													
 CREATE INDEX idx_pedido_dtregistro ON pedido (dtregistro);											
 CREATE INDEX idx_pedido_situacao ON pedido (situacao);											
 

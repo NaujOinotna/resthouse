@@ -181,10 +181,29 @@
 														</div>						
 
 														<hr >			 
-														
+														<script type="text/javascript">
+
+														function formaPagamentoCheck() {
+														    if (document.getElementById('DinheiroRadio').checked) {
+														        document.getElementById('Troco').style.display = 'block';
+														        let total_pedido = {{pedido.total_pedido}};
+														        document.getElementById('TrocoParaInput') = Math.ceil( total_pedido / 10.0 ) * 10;
+														    } else {
+														        document.getElementById('Troco').style.display = 'none';
+														    }
+														    document.getElementById('btnFinalizarPedido').disabled = false
+														} 
+
+														</script>
+
+													    <input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento" value="credito" id="CreditoRadio"> Credito<br>
+														<input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento" value="debito" id="DebitoRadio"> Debito<br>
+														<input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento" value="dinheiro" id="DinheiroRadio"> Dinheiro<br>  
+														<span style="padding-left:50px" id="Troco">Troco para R$<input type="number" min="1" step="any" style="width:50px" id="TrocoParaInput"/></span><br>
+
 														{% if pedido.situacao == "1" %}
 															<span class="badge badge-pill badge-light pull-left" style="background:#F58634; margin-top:-10px; margin-right:-1px; margin-bottom:5px">																 
-																		<button name="btnFinalizarPedido" style="color:white; font-size:12px"	type="button" class="btnFinalizarPedido btn btn-link" value='{"id":"{{pedido.id}}", "agenda_entrega":"{{pedido.assoc.agenda_entrega}}"}'>
+																		<button name="btnFinalizarPedido" style="color:white; font-size:12px"	type="button" class="btnFinalizarPedido btn btn-link" value='{"id":"{{pedido.id}}", "agenda_entrega":"{{pedido.assoc.agenda_entrega}}"}' id="btnFinalizarPedido" disabled>
 																			<i class="material-icons" style="color:white">done</i><br>Finalizar<br>Compra
 																		</button>																								
 															</span>	

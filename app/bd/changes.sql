@@ -1,2 +1,4 @@
 --cat changes.sql | heroku pg:psql --app resthouse
-UPDATE associado SET nomefantasia = 'Delivery do Beção' WHERE id = 7;
+SELECT id FROM pedido;
+ALTER TABLE pedido ADD forma_de_envio VARCHAR(50) NULL;
+SELECT forma_de_envio FROM pedido;

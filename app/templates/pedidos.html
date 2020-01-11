@@ -184,20 +184,20 @@
 														<script type="text/javascript">
 
 														function formaPagamentoCheck(pedido, total_pedido) {
-														    if (document.getElementById('DinheiroRadio_'+pedido.id).checked) {
-														        document.getElementById('Troco_'+pedido.id).style.display = 'block';
-														        document.getElementById('TrocoParaInput_'+pedido.id) = Math.ceil( total_pedido / 10.0 ) * 10;
+														    if (document.getElementById('DinheiroRadio_'+pedido).checked) {
+														        document.getElementById('Troco_'+pedido).style.display = 'block';
+														        document.getElementById('TrocoParaInput_'+pedido) = Math.ceil( total_pedido / 10.0 ) * 10;
 														    } else {
-														        document.getElementById('Troco_'+pedido.id).style.display = 'none';
+														        document.getElementById('Troco_'+pedido).style.display = 'none';
 														    }
-														    document.getElementById('btnFinalizarPedido_'+pedido.id).style.display = 'block';
+														    document.getElementById('btnFinalizarPedido_'+pedido).style.display = 'block';
 														} 
 
 														</script>
 
 
 														{% if pedido.situacao == "1" %}
-														    <input type="radio" onclick="javascript:formaPagamentoCheck('{{pedido.id}}', {{pedido.total_pedido}});" name="forma_pagamento_{{pedido.id}}" value="credito" id="CreditoRadio_{{pedido.id}}"> Credito<br>
+														    <input type="radio" onclick="javascript:formaPagamentoCheck({{pedido.id}}, {{pedido.total_pedido}});" name="forma_pagamento_{{pedido.id}}" value="credito" id="CreditoRadio_{{pedido.id}}"> Credito<br>
 															<input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento_{{pedido.id}}" value="debito" id="DebitoRadio_{{pedido.id}}"> Debito<br>
 															<input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento_{{pedido.id}}" value="dinheiro" id="DinheiroRadio_{{pedido.id}}"> Dinheiro<br>  
 															<span style="padding-left:50px; display:none" id="Troco_{{pedido.id}}">Troco para R$<input type="number" min="1" step="any" style="width:50px" id="TrocoParaInput_{{pedido.id}}"/></span><br>

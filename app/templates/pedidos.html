@@ -184,6 +184,7 @@
 														<script type="text/javascript">
 
 														function formaPagamentoCheck(pedido, total_pedido) {
+															console.log(pedido + " | " + total_pedido)
 														    if (document.getElementById('DinheiroRadio_'+pedido).checked) {
 														        document.getElementById('Troco_'+pedido).style.display = 'block';
 														        document.getElementById('TrocoParaInput_'+pedido) = Math.ceil( total_pedido / 10.0 ) * 10;
@@ -202,8 +203,8 @@
 															<input type="radio" onclick="javascript:formaPagamentoCheck();" name="forma_pagamento_{{pedido.id}}" value="dinheiro" id="DinheiroRadio_{{pedido.id}}"> Dinheiro<br>  
 															<span style="padding-left:50px; display:none" id="Troco_{{pedido.id}}">Troco para R$<input type="number" min="1" step="any" style="width:50px" id="TrocoParaInput_{{pedido.id}}"/></span><br>
 
-															<span class="badge badge-pill badge-light pull-left" style="background:#F58634; margin-top:-10px; margin-right:-1px; margin-bottom:5px">
-																<button name="btnFinalizarPedido" style="color:white; font-size:12px; display:none"	type="button" class="btnFinalizarPedido btn btn-link" value='{"id":"{{pedido.id}}", "agenda_entrega":"{{pedido.assoc.agenda_entrega}}"}' id="btnFinalizarPedido_{{pedido.id}}">
+															<span class="badge badge-pill badge-light pull-left" style="background:#F58634; margin-top:-10px; margin-right:-1px; margin-bottom:5px; display:none" id="btnFinalizarPedido_{{pedido.id}}">
+																<button name="btnFinalizarPedido" style="color:white; font-size:12px"	type="button" class="btnFinalizarPedido btn btn-link" value='{"id":"{{pedido.id}}", "agenda_entrega":"{{pedido.assoc.agenda_entrega}}"}'>
 																	<i class="material-icons" style="color:white">done</i><br>Finalizar<br>Compra
 																</button>																								
 															</span>	

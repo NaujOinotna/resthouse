@@ -277,6 +277,8 @@ def limparCarrinho():
 		else:
 				return render_template('login.html', page=None)
 
+separador = '<$>'
+
 @views.route('/pedido', methods=['GET'])
 @views.route('/pedido/<status>', methods=['GET'])
 def obterPedidos(status=None):
@@ -284,7 +286,10 @@ def obterPedidos(status=None):
 				if status==None:
 						Pedidos = oper.obterPedidos(session.get('id'))
 				else: 
-						Pedidos = oper.obterPedidosByStatus(session.get('id'), status)		
+						Pedidos = oper.obterPedidosByStatus(session.get('id'), status)
+				for pedido in Pedidos:
+						pedido.observacao = getObs(pedido.observacao)
+						pedido.formaPag = getFormaPag(pedido.observacao)
 				return render_template('pedidos.html', pedidos=Pedidos)
 
 		else:
@@ -295,16 +300,32 @@ def obterPedidos(status=None):
 def atualizarObservacao():
 		id = request.values.get('id')
 		observacao = request.values.get('observacao')[:149]
-
+		
 		if 'email' in session:
 				pedido = oper.obterPedidoById(id)
-				pedido.observacao = observacao
+				pedido.observacao = atualizarObs(pedido.observacao, observacao)
 				result = oper.atualizarPedido(pedido)
 
 				return result.get("code")
 
 		else:
 				return render_template('login.html', page=None)
+
+def atualizarObs(obs1, obs2):
+		formaPag = obs1.split(separador)[0] if len(obs1.split(separador)) > 1 else ''
+		obs = obs2.split(separador)[1] if len(obs2.split(separador)) > 1 else obs2
+		return formaPag + separador + obs
+
+def atualizarFormaPag(obs1, forma):
+		obs = obs1.split(separador)[1] if len(obs1.split(separador)) > 1 else obs1
+		forma = forma.split(separador)[0] if len(forma.split(separador)) > 1 else forma
+		return forma + separador + obs
+
+def getObs(obs1):
+		return obs1.split(separador)[1] if len(obs1.split(separador)) > 1 else obs1
+
+def getFormaPag(obs1):
+		return obs1.split(separador)[0] if len(obs1.split(separador)) > 1 else ''
 
 @views.route('/pedido/cancelar', methods=['POST'])
 def atualizarSituacaoCancelado():
